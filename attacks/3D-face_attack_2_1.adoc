@@ -1,0 +1,145 @@
+= Attack 3D Face 2-1
+
+== Attack type
+Attack using 3D face mask or head from 2D image
+
+=== Total Number of Species
+This attack has *1* species to be tested.
+
+== Overview
+The evaluator reconstructs the 3D face from 2D face images and create a 3D face mask or head and present it to the TOE.
+
+== Input
+Target user's face
+
+== Attack Tools/Media
+* T.1, Type 2
+* T.3, Type 1
+* T.4, Type 1
+* T.5, Type 1
+* M.3, Type 1
+
+== Recipe
+There are two ways to create a 3D face mask or head. This section describes a recipe for each method separately.
+
+=== Use reconstruction software and 3D printer
+*Production method*
+
+. Capture a face image
+. Search available reconstruction software and select the best one or two
+. Import the image file into the software and reconstruct a 3D head from it
+. Export a 3D file (e.g. obj file)
+. View the 3D file using 3D modeling software to check quality of the 3D image
+. Optionally edit a 3D file using 3D modeling software (e.g. convert a 3D head into a 3D face mask form)
+. Produce 3D face mask or head by a 3D printer
+. Stick test user’s eye image on 3D face mask or head
++
+(Production flow is explained in research papers listed in Face Toolbox References, 3D Face References. For example, [10] shows the flow in Figure step by step and [11] 
+includes examples of face masks used for presentation attacks)
+
+Examples of reconstruction software and 3D modeling software are listed in the Face Toolbox Inventory.
+
+The evaluator shall try to create good quality of 3D face mask or head as much as she/he can following instructions in reconstruction software and 3D printer manuals.
+
+The evaluator shall produce at least three 3D files and view and select the best 3D image using 3D modeling software.
+
+=== Outsource it from a third party
+*Production method*
+
+. Search available third parties and select the best one
+. Provide three test user’s photos at maximum and ask to produce 3D face mask or head
+
+The evaluator shall capture photos following instructions (e.g. lightning condition) provided by the third party.
+
+== Variations
+
+No variations.
+
+== Prerequisite
+The evaluator shall enroll test users first as described in the Face Toolbox Overview. If the ST covers the multiple configurations for face unlock, the same test should be done for all configurations.
+
+== Presentation
+The evaluator shall wear a 3D face mask or present a 3D face to the TOE.
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator shall consider changing the following factors for penetration testing that use reconstruction software and 3D printer. 
+ For presentation testing that use 3D mask or head outsourced from a third party, the evaluator can change presentation method only.
+
+* Configuration of tool
++
+The evaluator can change, for example, materials for 3D printing or put pre-made eyebrow on 3D face mask or head with glue. 
++
+The evaluator should look at research papers or reports listed in the Face Toolbox References, 3D Face References, to improve a quality of 3D face mask or head.
+
+* Presentation method
++ 
+As described in BIOSD, the evaluator can change the distance between the artefact and the TOE.  
+
+=== Attack Potential Rating Suggestion
+The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
+
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+.Attack Potential 3D Face 2-1
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one week
+|1
+|<= one day
+|0
+|1
+
+|*Expertise*
+|Proficient
+|2
+|Layman
+|0
+|2
+ 
+|*Knowledge of TOE*    
+|Public
+|0 
+|N/A
+|
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|N/A
+|
+|Immediate
+|0
+|0
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There are no additional criteria other than defined in BIOSD and PAD Toolbox Overview.
