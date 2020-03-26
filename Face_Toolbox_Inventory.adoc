@@ -3,9 +3,9 @@
 :revdate: 2020-03-25
 
 == Overview
-This document specifies requirements for tools that are used to create face image artefacts. There are two types of tools and media, Type 1 and Type 2. Not all tools or media may have both types. Generally, the evaluator shall create normal quality of face artefacts using Type 1 tools and high quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
+This document specifies requirements for tools that are used to create face image artefacts. There are two types of tools and materials, Type 1 and Type 2. Not all tools or materials may have both types. Generally, the evaluator shall create normal quality of face artefacts using Type 1 tools and high quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
 
-The evaluator may use any tools and media to create face artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g. rental service) to prepare any tools in cost effective way.
+The evaluator may use any tools and materials to create face artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g. rental service) to prepare any tools in cost effective way.
 
 The evaluator may need to use other tools that are not specified here. 
 
@@ -76,9 +76,9 @@ a|There are lots of online 3D printing services available. The evaluator shall s
 
 |===
 
-== Media Inventory
+== Materials Inventory
 
-.Media Requirements
+.Materials Requirements
 [cols=".^1,.^1,3,3",options="header"]
 |===
 
