@@ -1,0 +1,31 @@
+= Introduction to the Face PAD Toolbox
+
+This is the repository for the Face PAD Toolbox.
+
+The documents in this repository are to provide instructions about how to test a Face biometric sensor for Presentation Attack Detection. 
+
+The general overview for PAD testing can be found in the documents located in the repository here: https://github.com/biometricITC/cPP-toolboxes.
+
+== Files in this Repository
+
+[cols=".^1,.^3",options="header"]
+|===
+|File/Folder
+|Description
+
+|Face_Toolbox_Overview.adoc
+|This is the overview of how Face sensor PAD testing should proceed. This is a general document providing common information about how the testing should proceed. Specific testing information can be found in the attacks folder.
+
+|Face_Toolbox_References.adoc
+|A list of external references that were used to build the attacks. These should be reviewed prior to conducting any PAD testing.
+
+|Face_Toolbox_Inventory.adoc
+|A list of the tools and media needed to complete the PAD testing.
+
+|Face_Toolbox_Verification_List.adoc
+|The list of all tests (including variants) and when they should be tested (based on the information known about the sensor being tested).
+
+|attacks folder
+|This folder contains the scripts for the attacks (as listed in Face_Toolbox_Verification_List.adoc).
+
+|===
