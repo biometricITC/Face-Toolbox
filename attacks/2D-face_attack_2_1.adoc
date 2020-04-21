@@ -102,7 +102,7 @@ a|
 *(Access to Biometric Characteristics)* 
 |N/A
 |
-|Immediate
+|Without notice
 |0
 |0
 
@@ -165,7 +165,7 @@ a|
 *(Access to Biometric Characteristics)* 
 |N/A
 |
-|Immediate
+|Without notice
 |0
 |0
 
