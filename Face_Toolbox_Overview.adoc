@@ -3,7 +3,7 @@
 :revdate: 2020-03-25
 
 == Overview
-There are two categories of face artefact that can be used for presentation attack. The first one is two-dimensional (2D) face artefact such as a printed photo of a target user and the second is, for example, a face mask that mimics three-dimensional (3D) geometry of a user’s face. This toolbox describes 2D and 3D face artefacts separately that the evaluator shall create for the PAD testing.
+There are two categories of face artefact that can be used for presentation attacks. The first is two-dimensional (2D) face artefacts such as a printed photo of a target user and the second is, for example, a face mask that mimics the three-dimensional (3D) geometry of a user’s face. This toolbox describes 2D and 3D face artefacts separately that the evaluator shall create for the PAD testing.
 
 There are also two types of face biometric verification method, 2D or 3D image-based methods. The 2D image-based method captures a two-dimensional face image by a sensor using visible light to recognize a person. The 3D image-based method creates three-dimensional model of the human face using a 3D scanner such as a depth camera.
 
