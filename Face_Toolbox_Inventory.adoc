@@ -43,7 +43,7 @@ a|dSLR camera
 
 |T.2 
 |Printer             
-a|Home SoHo Inkjet printer 
+a|Small Office/Home Office Inkjet printer 
 
 * New printer shall be purchasable at the date of testing.
 * Test user's face shall be printed on a paper in full scale.
