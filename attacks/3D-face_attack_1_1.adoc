@@ -37,22 +37,22 @@ The evaluator shall take at least three photos and select the best one to create
 * M.1, Type 2
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Face Toolbox Overview. If the ST covers the multiple configurations for face unlock, the same test should be done for all configurations.
+The evaluator shall enroll test users first as described in the Face Toolbox Overview. If the ST covers the multiple configurations for face unlock, the same test shall be done for all configurations.
 
 == Presentation
 The evaluator shall wear a printed face mask using tape or paste as described in the Face Toolbox Overview.
 
 == Penetration Testing and Attack Potential Rating Suggestions
 === Penetration Testing Suggestion
-The evaluator shall consider changing the following factors for penetration testing.
+The evaluator should consider changing the following factors for penetration testing.
 
 * Configuration of tool
 +
-The evaluator can change, for example, color effect of camera to change quality of face images. Such change may affect the texture of artefacts that may lead to false acceptance. 
+The evaluator may change, for example, color effect of camera to change quality of face images. Such change may affect the texture of artefacts that may lead to false acceptance. 
 
 * Presentation method
 + 
-As described in BIOSD, the evaluator can change the distance between the artefact and the TOE. In addition to that, the evaluator can cut off the eye regions of a printed photo, hide behind and exhibit blinking through the holes (Cut photo attack).  
+As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition to that, the evaluator may cut off the eye regions of a printed photo, hide behind and exhibit blinking through the holes (Cut photo attack).  
 
 === Attack Potential Rating Suggestion
 The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
