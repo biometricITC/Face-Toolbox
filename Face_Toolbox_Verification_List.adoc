@@ -51,13 +51,13 @@ This shows the list of tests and their applicability to different types of biome
 |X
 
 |3D Face 1-1
-|link:attacks/3D-face_attack_1_1.adoc[Printed Face mask, Normal quality]
+|link:attacks/3D-face_attack_1_1.adoc[Printed face mask, Normal quality]
 |X
 |X
 |X
 
 |3D Face 1-2
-|link:attacks/3D-face_attack_1_1.adoc[Printed Face mask, High quality (Variant of 3D Face 1-1)]
+|link:attacks/3D-face_attack_1_1.adoc[Printed face mask, High quality (Variant of 3D Face 1-1)]
 |X
 |X
 |X
