@@ -71,7 +71,7 @@ a|Any modeling software, including free software such as http://www.meshmixer.co
 
 |T.5 
 |3D Printer              
-a|There are lots of online 3D printing services available. The evaluator shall select ones that can create 3D face mask or head from materials recommended in T.4
+a|There are lots of online 3D printing services available. The evaluator shall select ones that can create 3D face mask or head from materials recommended in M.3.
 |
 
 |===
