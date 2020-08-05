@@ -7,7 +7,7 @@ There are two categories of face artefacts that can be used for presentation att
 
 There are also two types of face biometric verification methods, 2D or 3D image-based methods. The 2D image-based method captures a two-dimensional face image with a sensor using visible light to recognize a person. The 3D image-based method creates three-dimensional model of the human face using a 3D scanner such as a depth camera.
 
-The evaluator shall refer to this toolbox for the creation of both 2D and 3D face artefacts. However, depending on the type of sensor being used for verification, not all species types may be required as part of the testing. The link:Face_Toolbox_Verification_List.adoc[Face Toolbox Verification List] specifies the types of species that should be created based on the sensor being evaluated.
+The evaluator shall refer to this toolbox for the creation of both 2D and 3D face artefacts. However, depending on the type of sensor being used for verification, not all species types may be required as part of the testing. The link:Face_Toolbox_Verification_List.adoc[Face Toolbox Verification List] specifies the types of species that shall be created based on the sensor being evaluated.
 
 == Face Presentation Attacks
 === 2D Attacks
