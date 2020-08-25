@@ -3,19 +3,19 @@
 :revdate: 2020-03-25
 
 == Overview
-This document specifies requirements for tools that are used to create face image artefacts. There are two types of tools and materials, Type 1 and Type 2. Not all tools or materials may have both types. Generally, the evaluator shall create normal quality of face artefacts using Type 1 tools and high quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
+This document specifies requirements for tools that are used to create face image artefacts. There are two types of tools and materials: Type 1 and Type 2. Not all tools or materials may have both types. Generally, the evaluator shall create "normal" quality face artefacts using Type 1 tools and high quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
 
-The evaluator may use any tools and materials to create face artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g. rental service) to prepare any tools in cost effective way.
+The evaluator may use any tools and materials to create face artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g,. rental services) to prepare any tools in a cost effective way.
 
 The evaluator may need to use other tools that are not specified here. 
 
 Some examples:
 
-* The evaluator may connect the camera to the TV directly to replay the face image on the 4K screen
-* The camera video file could be imported to a PC from the camera and played directly from the 4K PC screen.
+* The evaluator may connect a camera to a TV directly to replay a face image on a 4K screen
+* A camera video file could be imported to a PC from the camera and played directly from a 4K PC screen.
 +
-In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen and if the evaluator sees any problem (e.g. choppy video playback because of weak CPU power), the evaluator shall replace them with right ones.  
-* The evaluator needs a PC to install and run reconstruction software to generate a 3D image.
+In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen. If the evaluator sees any problem (e.g., choppy video playback because of an underpowered CPU), the evaluator shall replace the tools with an alternative that does not exhibit the problem. 
+* The evaluator needs a PC to install and run reconstruction software to generate 3D images.
 +
 In such cases, the evaluator may use any PC that meets the software’s hardware requirements.
 
@@ -38,7 +38,7 @@ a|Rear-facing camera of a mobile device
 * Camera's resolution should be the same level or higher than the TOE's sensor used for face biometric verification.
 a|dSLR camera
 
-* New dSLR shall be purchasable at the date of testing and the camera was released within 1 year from the date of testing.
+* New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
 * Camera's resolution shall be at least 3 times higher than the TOE's sensor used for face biometric verification.
 
 |T.2 
@@ -46,32 +46,32 @@ a|dSLR camera
 a|Small Office/Home Office Inkjet printer 
 
 * New printer shall be purchasable at the date of testing.
-* Test user's face shall be printed on a paper in full scale.
-a|Net print service
+* Test user's face shall be printed on paper in full scale.
+a|Professional print service
 
-* Test user's face shall be printed on a paper in full scale.
-* The evaluator shall refer publicly available information to select the best one (e.g. quality comparison report for net print services). 
-* The evaluator shall follow recommendations from net print service (e.g. recommended image file size) to get the highest quality of photo print. 
+* Test user's face shall be printed on paper in full scale.
+* The evaluator shall refer to publicly available information to select the best one (e.g., quality comparison report for professional print services). 
+* The evaluator shall follow recommendations from professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
 
 |T.3 
 |Reconstruction software             
-a|A few free or commercial software that are specialized for 3D face reconstruction are available. Examples of such software are listed below.
+a|Specialized software for 3D face reconstruction is available. Examples of such software are listed below.
 
 * https://facegen.com/[FaceGen]
 * https://cvl-demos.cs.nott.ac.uk/vrn/[Direct Volumetric CNN Regression tool]
 
-The evaluator shall search available software and select the one that can reconstruct best quality of 3D face.
+The evaluator shall search available software and select the one that can reconstruct best quality 3D face.
 |
 
 |T.4 
 |3D modeling software             
-a|Any modeling software, including free software such as http://www.meshmixer.com/[Meshmixer] can be used to view and edit a 3D image.
+a|Any modeling software, including free software such as http://www.meshmixer.com/[Meshmixer], can be used to view and edit a 3D image.
 |
 
 
 |T.5 
 |3D Printer              
-a|There are lots of online 3D printing services available. The evaluator shall select ones that can create 3D face mask or head from materials recommended in M.3.
+a|The evaluator shall select 3D printing equipment or a professional printing service that can create 3D face mask or mannequin head from materials recommended in M.3.
 |
 
 |===
@@ -93,10 +93,10 @@ a|Matte paper
 
 * Paper shall be wide enough to include a test user's face in full scale.
 
-a|Paper recommend by net print service selected
+a|Paper recommend by professional print service selected
 
 * Paper shall be wide enough to include a test user's face in full scale.
-* The evaluator shall select the best paper type to print the best quality of face images.
+* The evaluator shall select the best paper type to print the highest quality face images.
 
 |M.2 
 |Screen              
@@ -106,12 +106,12 @@ a|Mobile device screen
 * Test user's face shall be displayed or replayed on the screen in full scale.
 a|High resolution screen
 
-* The evaluator shall use the highest resolution screen that was released within 1 year from the date of testing.
+* The evaluator shall use the highest resolution screen that was released within the previous 1 year period starting from the date of testing.
 * Test user's face shall be displayed or replayed on the screen in full scale.
 
 |M.3 
 |Materials for 3D face mask or head            
-a|Material of mask of head would need to be stiff enough to hold features of test user’s face, but soft enough to trick a sensor into thinking it is skin. The evaluator shall select following materials to create 3D face mask or head:
+a|Material of mask or mannequin head needs to be stiff enough to hold features of test user’s face, but soft enough to trick a sensor into thinking it is skin. The evaluator shall select following materials to create 3D face mask or mannequin head:
 
 * Rubbery, translucent silicone
 * opaque, soft vinyl

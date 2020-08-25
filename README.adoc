@@ -14,7 +14,7 @@ The general overview for PAD testing can be found in the documents located in th
 |Description
 
 |link:Face_Toolbox_Overview.adoc[Face_Toolbox_Overview.adoc]
-|This is the overview of how Face sensor PAD testing should proceed. This is a general document providing common information about how the testing should proceed. Specific testing information can be found in the attacks folder.
+|This is an overview of how face sensor PAD testing should proceed. Specific testing information can be found in the link:attacks[attacks] folder.
 
 |link:Face_Toolbox_References.adoc[Face_Toolbox_References.adoc]
 |A list of external references that were used to build the attacks. These should be reviewed prior to conducting any PAD testing.
@@ -25,7 +25,7 @@ The general overview for PAD testing can be found in the documents located in th
 |link:Face_Toolbox_Verification_List.adoc[Face_Toolbox_Verification_List.adoc]
 |The list of all tests (including variants) and when they should be tested (based on the information known about the sensor being tested).
 
-|attacks folder
-|This folder contains the scripts for the attacks (as listed in Face_Toolbox_Verification_List.adoc).
+|link:attacks[attacks/]
+|This folder contains the scripts for the attacks (as listed in link:Face_Toolbox_Verification_List.adoc[Face_Toolbox_Verification_List.adoc]).
 
 |===
