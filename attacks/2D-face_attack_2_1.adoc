@@ -7,7 +7,7 @@ Digital photo attack
 This attack has *2* species to be tested.
 
 == Overview
-The evaluator captures and displays s target user's face on a mobile device screen and presents it to the TOE.
+The evaluator captures and displays a target user's face on a mobile device screen and presents it to the TOE.
 
 == Input
 Target user's face
