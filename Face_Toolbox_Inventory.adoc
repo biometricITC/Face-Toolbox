@@ -71,7 +71,7 @@ a|Any modeling software, including free software such as http://www.meshmixer.co
 
 |T.5 
 |3D Printer              
-a|The evaluator shall select 3D printing equipment or a professional printing service that can create 3D face mask or mannequin head from materials recommended in T.4.
+a|The evaluator shall select 3D printing equipment or a professional printing service that can create 3D face mask or mannequin head from materials recommended in M.3.
 |
 
 |===
