@@ -11,7 +11,7 @@ The evaluator shall refer to this toolbox for the creation of both 2D and 3D fac
 
 == Face Presentation Attacks
 === 2D Attacks
-There are many research papers that study face presentation attack, In these papers, researchers typically create 2D face artefacts through the following process.
+There are many research papers that study face presentation attack. In these papers, researchers typically create 2D face artefacts through the following process.
 
 . Capture face images of a target user using a camera.
 
