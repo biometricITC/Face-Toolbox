@@ -109,7 +109,7 @@ The tools and media for the creation of artefacts are defined for all tests in t
 
 . Face image capture
 .. The evaluator shall capture face images immediately following the enrolment of test users under identical environmental conditions to reduce the possibility that the artefacts are rejected because differences in illumination, background scene, or expression.
-.. The evaluator shall capture test users’ face images with normal and high quality cameras for printed and digital photo attacks. The evaluator shall also record video of the user's face for ten seconds for reply video attacks. 
+.. The evaluator shall capture test users’ face images with Type 1 (i.e., "normal" quality) and Type 2 (i.e., "high" quality) cameras for printed and digital photo attacks. The evaluator shall also record video of the user's face for ten seconds for reply video attacks. 
 
 === 2D Artefacts - Photos and Video
 [start=3]
@@ -144,11 +144,11 @@ The tools and media for the creation of artefacts are defined for all tests in t
 == Requirements for Tools
 The evaluator needs to use several tools, such as cameras, screens, printers, and media, that meet the specifications listed below, since these specifications impact the clarity or sharpness of face artefacts. For example, the quality of digital photos depends on the screen resolution. If the screen is 4K (i.e., a horizontal screen resolution in the order of 4,000 pixels), and it can provide the finest clarity and detail of face images.
 
-This toolbox defines two level of tools--normal and high quality--to cover variety of tools to conduct the PAD testing efficiently. Not all tools have both levels.
+This toolbox defines two level of tools--Type 1 and Type 2--to cover variety of tools to conduct the PAD testing efficiently. Not all tools have both levels.
 
-Normal quality tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create face artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
+Type 1 tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create face artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
 
-High quality tools have better performance (e.g., higher resolution) than normal quality tools.  Such tools should be the latest available (i.e., released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive, but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks.
+Type 2 tools have better performance (e.g., higher resolution) than Type 1 tools.  Such tools should be the latest available (i.e., released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive, but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks.
 
 For 3D printed masks or mannequin heads, if the evaluator outsources the artefact from a third party, the evaluator shall follow the instructions from the third party when capturing photos (e.g., lighting conditions) and provide only a maximum of three photos as source material.
 
