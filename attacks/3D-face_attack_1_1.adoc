@@ -37,7 +37,7 @@ The evaluator shall take at least three photos and select the best one to create
 * M.1, Type 2
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
+The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall wear a printed face mask using tape or paste as described in the Face Toolbox Overview.

@@ -56,7 +56,7 @@ The evaluator shall capture photos following instructions (e.g., lightning condi
 No variations.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
+The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
 
 == Presentation
 The evaluator shall wear a 3D face mask or present a 3D mannequin head to the TOE.
