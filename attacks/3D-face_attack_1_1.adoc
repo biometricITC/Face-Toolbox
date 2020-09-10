@@ -52,7 +52,7 @@ The evaluator may, for example, change color effects of the camera to change the
 
 * Presentation method
 + 
-As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. The evaluator may also remove the eye regions of a printed photo, align their own eyes behind the photo, and blink through the holes (Cut photo attack).  
+As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. The evaluator may also make cuts to the printed photo (Cut photo attack) to allow for better 3D fit or to provide an option for live feedback when presenting the photo, for example removing the eyes or mouth and aligning with the wearer, or making a slit for the nose. The evaluator shall create a mask which approximates the size of their own head so as to properly appear as a full face (e.g. not showing the edge of the mask and then a portion of the wearer's own face, which may require the evaluator to consider physical characteristics of the test subject when determining the best presentation). The evaluator should attempt to maintain similar physical conditions to the test subject capture (such as distance from the sensor) when presenting the attack. 
 
 === Attack Potential Rating Suggestion
 The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
