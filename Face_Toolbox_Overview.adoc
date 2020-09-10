@@ -125,7 +125,7 @@ The tools and media for the creation of artefacts are defined for all tests in t
 === 3D Artefacts - Worn Photo Face Mask
 [start=3]
 . Artefact creation
-.. The evaluator shall print face images for printed photo attacks, display face images on a screen for digital photo attacks, and replay them on a screen for replay video attacks. The size of face images on artefacts shall be same as the test user’s face.
+.. The evaluator shall print face images for printed photo attacks. The size of face images on artefacts shall be same as the test user’s face.
 
 . Artefact presentation
 .. The evaluator shall bend and wear the printed face mask using tape or paste and present it to the TOE under the identical controlled environment used during enrolment.
