@@ -160,7 +160,7 @@ The evaluator shall create artefacts defined in all test items listed in the lin
 PAD Toolbox Overview defines required number of attempts for the independent testing and maximum timeframe for both independent and penetration testing.
 
 == Pass/Fail Criteria
-If Pass/Fail Criteria is defined in the test items, the evaluator shall follow them. Otherwise, the evaluator shall follow criteria defined in BIOSD and PAD Toolbox Overview.
+IAPAR shall be less than the specified value in FIA_MBV_EXT.3.1 in any case. If additional Pass/Fail Criteria is defined in the test items, then the evaluator shall also follow them.
 
 == Reference Information 
 The Face Toolbox was created based on research papers listed in link:Face_Toolbox_References.adoc[Face Toolbox References]. The evaluator should read them before conducting the PAD testing because they include more detailed information about PAD test methods.
