@@ -36,16 +36,16 @@ a|Rear-facing camera of a mobile device
 * The evaluator shall not use the same mobile device on which the TOE is installed.
 * New mobile device shall be purchasable at the date of testing.
 * Camera's resolution should be the same level or higher than the TOE's sensor used for face biometric verification.
-a|dSLR camera
+a|Camera
 
-* New dSLR shall be purchasable at the date of testing and the camera was released within the previous 1 year period starting from the date of testing.
+* Not a mobile device camera, a dedicated camera device.
 * Camera's resolution shall be at least 3 times higher than the TOE's sensor used for face biometric verification.
 
 |T.2 
 |Printer             
 a|Small Office/Home Office Inkjet printer 
 
-* New printer shall be purchasable at the date of testing.
+* A printer no more than 4 years old at the time of the data of testing with a DPI of at least XXXXX.
 * Test user's face shall be printed on paper in full scale.
 a|Professional print service
 
@@ -106,7 +106,7 @@ a|Mobile device screen
 * Test user's face shall be displayed or replayed on the screen in full scale.
 a|High resolution screen
 
-* The evaluator shall use the highest resolution screen that was released within the previous 1 year period starting from the date of testing.
+* The evaluator shall use that meets XXXXXX DPI based on the resolution of the mobile device camera.
 * Test user's face shall be displayed or replayed on the screen in full scale.
 
 |M.3 
