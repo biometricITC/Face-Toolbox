@@ -5,6 +5,8 @@
 == Overview
 This document specifies requirements for tools that are used to create face image artefacts. There are two types of tools and materials: Type 1 and Type 2. Not all tools or materials may have both types. Generally, the evaluator shall create "normal" quality face artefacts using Type 1 tools and high quality face artefacts with Type 2 tools. The requirements for each tool are specified in the following tables.
 
+As cameras have a wide variability, the requirements for cameras are based on scoring provided by https://www.dxomark.com/[DXOMARK] sensor rankings. The intent is to provide an objective measure of whether the camera will meet the expectations for creating PAI. Similar objective criteria may be used with appropriate justifications.
+
 The evaluator may use any tools and materials to create face artefacts as long as they meet requirements specified below. The evaluator may use any available services (e.g,. rental services) to prepare any tools in a cost effective way.
 
 The evaluator may need to use other tools that are not specified here. 
@@ -31,21 +33,31 @@ In such cases, the evaluator may use any PC that meets the software’s hardware
 
 |T.1 
 |Camera    
-a|Rear-facing camera of a mobile device  
+a|Mobile device camera
+
+* A mobile device where the https://www.dxomark.com/smartphones/[Smartphone Camera score] is at least 100.
 
 * The evaluator shall not use the same mobile device on which the TOE is installed.
-* New mobile device shall be purchasable at the date of testing.
-* Camera's resolution should be the same level or higher than the TOE's sensor used for face biometric verification.
 a|Camera
 
-* Not a mobile device camera, a dedicated camera device.
-* Camera's resolution shall be at least 3 times higher than the TOE's sensor used for face biometric verification.
+* A camera where the sensor meets the following measures (which can be found at https://www.dxomark.com/camera-sensors/)
+** Native ISO: &#8805; 100
+** Dynamic range at ISO 100: &#8805; 13 EV
+** Color depth at ISO 100: &#8805; 25.0 bits
+** Pixel count (in megapixels): &#8805; 30 MP
+** SNR at ISO 100: &#8805; 42 dB
+* A camera lens with the following https://www.dxomark.com/camera-lenses/[rankings]:
+** Overall score: &#8805; 30
+** Sharpness score: &#8805; 20
 
 |T.2 
 |Printer             
 a|Small Office/Home Office Inkjet printer 
 
-* A printer no more than 4 years old at the time of the data of testing with a DPI of at least XXXXX.
+* A dedicated photo printer (not an all-in-one that also prints photos) no more than 5 years old.
+** The printer's minimum resolution must be at least 2400x1200 DPI.
+** OEM pigmented inks must be used.
+** Use "High" print quality settings.
 * Test user's face shall be printed on paper in full scale.
 a|Professional print service
 
@@ -75,6 +87,16 @@ a|The evaluator shall select 3D printing equipment or a professional printing se
 |
 
 |===
+
+=== Camera Lens Usage Recommendations
+For type 2 cameras with a lens, the following recommendations should be used:
+
+* Always use lens stopped down at least 2 stops or more from widest aperture, preferably use f/8 if lighting allows at native ISO for the sensor being used.
+* Match the equivalent focal length of the camera capturing the PAD data. If the focal length is unknown, use a focal length between 85 and 200 mm equivalent for full frame sensor.
+* If the camera is used on a tripod, turn off vibration reduction in the lens and camera body if available.
+* Always apply lens profile corrections in image software (Photoshop, Lightroom, GIMP, etc.):
+** Geometric distortion corrections.
+** Chromatic aberration corrections.
 
 == Materials Inventory
 
