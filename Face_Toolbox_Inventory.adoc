@@ -113,27 +113,29 @@ For type 2 cameras with a lens, the following recommendations should be used:
 |Print paper            
 a|Matte paper 
 
-* Paper shall be wide enough to include a test user's face in full scale.
+* Paper shall be wide enough to include a test user's face in full scale
 
 a|Paper recommend by professional print service selected
 
-* Paper shall be wide enough to include a test user's face in full scale.
-* The evaluator shall select the best paper type to print the highest quality face images.
+* Paper shall be wide enough to include a test user's face in full scale
+* The evaluator shall select the best paper type to print the highest quality face images
 
 |M.2 
 |Screen              
 a|Mobile device screen
 
-* The evaluator shall use the same mobile device used for capturing test user's face.
-* Test user's face shall be displayed or replayed on the screen in full scale.
+* The evaluator shall use the same mobile device used for capturing test user's face
+* Test user's face shall be displayed or replayed on the screen in full scale
 a|High resolution screen
 
-* The evaluator shall use that meets XXXXXX DPI based on the resolution of the mobile device camera.
-* Test user's face shall be displayed or replayed on the screen in full scale.
+* The evaluator shall use a UHD (4K) or higher resolution display (TV or computer monitor)
+** Do not use Twisted Nematic (TN) or strobed backlight displays
+** Recommended displays are In-Plane-Switching (IPS) or OLED
+* Test user's face shall be displayed or replayed on the screen in full scale. The test user's face should be displayed as large as possible up to a 1:1 scale (for example a 47" TV screen should not display a 47" diagonal of the test user's face)
 
 |M.3 
 |Materials for 3D face mask or head            
-a|Material of mask or mannequin head needs to be stiff enough to hold features of test user’s face, but soft enough to trick a sensor into thinking it is skin. The evaluator shall select following materials to create 3D face mask or mannequin head:
+a|Material of mask or mannequin head needs to be stiff enough to hold features of test user's face, but soft enough to trick a sensor into thinking it is skin. The evaluator shall select following materials to create 3D face mask or mannequin head:
 
 * Rubbery, translucent silicone
 * opaque, soft vinyl

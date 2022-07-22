@@ -118,7 +118,7 @@ The tools and media for the creation of artefacts are defined for all tests in t
 
 . Artefact presentation
 .. The evaluator shall present artefacts to the TOE in the identical controlled environment used during enrolment.
-.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts.
+.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts and to minimize moiré patterns.
 .. The evaluator shall present artefacts in a way that minimizes reflections from ambient lighting.
 .. The evaluator shall present artefacts by hand for printed and digital photo attacks, introducing some noticeable motion, and by tripod for replay video attack.
 
