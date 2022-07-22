@@ -141,6 +141,29 @@ The tools and media for the creation of artefacts are defined for all tests in t
 .. The evaluator shall wear the 3D face mask and present it to the TOE or present the 3D mannequin head to the TOE under the identical controlled environment used during enrolment.
 .. The evaluator shall present the 3D face mask or mannequin head in a way that minimizes reflections from ambient lighting.
 
+== Stored Artefact Usage
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing.
+
+The following table specifies the maximum amount of stored artefacts that can be used for each type.
+
+[cols=".^3,.^2",options="header",]
+
+|===
+
+|Artefact type
+|Max stored artefacts allowed
+
+|2D Artefacts - Photos and Video
+|80%
+
+|3D Artefacts - Worn Photo Face Mask
+|60%
+
+|3D Artefacts - 3D Face Mask or Head from 2D Face Image(s)
+|80%
+
+|===
+
 == Requirements for Tools
 The evaluator needs to use several tools, such as cameras, screens, printers, and media, that meet the specifications listed below, since these specifications impact the clarity or sharpness of face artefacts. For example, the quality of digital photos depends on the screen resolution. If the screen is 4K (i.e., a horizontal screen resolution in the order of 4,000 pixels), and it can provide the finest clarity and detail of face images.
 
