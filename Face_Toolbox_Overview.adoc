@@ -142,9 +142,9 @@ The tools and media for the creation of artefacts are defined for all tests in t
 .. The evaluator shall present the 3D face mask or mannequin head in a way that minimizes reflections from ambient lighting.
 
 == Stored Artefact Usage
-If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing.
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing. Stored artefacts also have maximum ages based on the date of initial creation (weeks are used for consistent time periods). Stored artefacts can only be used up to the maximum age based on the time difference between the creation date and the use date (use must be completed before the maximum age allowed).
 
-The following table specifies the maximum amount of stored artefacts that can be used for each type.
+The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
 
 [cols=".^3,.^2",options="header",]
 
@@ -152,15 +152,19 @@ The following table specifies the maximum amount of stored artefacts that can be
 
 |Artefact type
 |Max stored artefacts allowed
+|Max age of stored artefacts
 
 |2D Artefacts - Photos and Video
-|80%
+|None allowed
+|Not applicable
 
 |3D Artefacts - Worn Photo Face Mask
-|60%
+|None allowed
+|Not applicable
 
 |3D Artefacts - 3D Face Mask or Head from 2D Face Image(s)
 |80%
+|52 weeks (1 year)
 
 |===
 
