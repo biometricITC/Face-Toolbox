@@ -125,7 +125,7 @@ a|Paper recommend by professional print service selected
 a|Mobile device screen
 
 * The evaluator shall use the same mobile device used for capturing test user's face
-* Test user's face shall be displayed or replayed on the screen in full scale
+* Screen shall include the test user's full face and this face image shall be taken where the user holds the mobile device like a normal face verification
 a|High resolution screen
 
 * The evaluator shall use a UHD (4K) or higher resolution display (TV or computer monitor)
