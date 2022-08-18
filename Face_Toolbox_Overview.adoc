@@ -118,7 +118,7 @@ The tools and media for the creation of artefacts are defined for all tests in t
 
 . Artefact presentation
 .. The evaluator shall present artefacts to the TOE in the identical controlled environment used during enrolment.
-.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts.
+.. The evaluator shall adjust the distance between artefacts and the TOE so that the TOE can’t see the edge of artefacts and to minimize moiré patterns.
 .. The evaluator shall present artefacts in a way that minimizes reflections from ambient lighting.
 .. The evaluator shall present artefacts by hand for printed and digital photo attacks, introducing some noticeable motion, and by tripod for replay video attack.
 
@@ -141,6 +141,32 @@ The tools and media for the creation of artefacts are defined for all tests in t
 .. The evaluator shall wear the 3D face mask and present it to the TOE or present the 3D mannequin head to the TOE under the identical controlled environment used during enrolment.
 .. The evaluator shall present the 3D face mask or mannequin head in a way that minimizes reflections from ambient lighting.
 
+== Stored Artefact Usage
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing. Stored artefacts also have maximum ages based on the date of initial creation (weeks are used for consistent time periods). Stored artefacts can only be used up to the maximum age based on the time difference between the creation date and the use date (use must be completed before the maximum age allowed).
+
+The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
+
+[cols=".^3,.^2,.^2",options="header",]
+|===
+
+|Artefact type
+|Max stored artefacts allowed
+|Max age of stored artefacts
+
+|2D Artefacts - Photos and Video
+|None allowed
+|Not applicable
+
+|3D Artefacts - Worn Photo Face Mask
+|None allowed
+|Not applicable
+
+|3D Artefacts - 3D Face Mask or Head from 2D Face Image(s)
+|80%
+|52 weeks (1 year)
+
+|===
+
 == Requirements for Tools
 The evaluator needs to use several tools, such as cameras, screens, printers, and media, that meet the specifications listed below, since these specifications impact the clarity or sharpness of face artefacts. For example, the quality of digital photos depends on the screen resolution. If the screen is 4K (i.e., a horizontal screen resolution in the order of 4,000 pixels), and it can provide the finest clarity and detail of face images.
 
@@ -148,7 +174,7 @@ This toolbox defines two level of tools--Type 1 and Type 2--to cover variety of 
 
 Type 1 tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create face artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
 
-Type 2 tools have better performance (e.g., higher resolution) than Type 1 tools.  Such tools should be the latest available (i.e., released at least within one year from the date of PAD testing, or as recent as possible depending on the type of device). Those tools may be expensive, but can be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks.
+Type 2 tools have better performance (e.g., higher resolution) than Type 1 tools.  Such tools should be the latest available (for example, a device that has been recently released, or is considered an industry leading device of that type). Those tools may be expensive, but may be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks.
 
 For 3D printed masks or mannequin heads, if the evaluator outsources the artefact from a third party, the evaluator shall follow the instructions from the third party when capturing photos (e.g., lighting conditions) and provide only a maximum of three photos as source material.
 
