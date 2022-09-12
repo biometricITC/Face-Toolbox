@@ -41,7 +41,7 @@ a|Mobile device camera
 a|Camera
 
 * A camera where the sensor meets the following measures (which can be found at https://www.dxomark.com/camera-sensors/)
-** Native ISO: &#8805; 100
+** Native ISO: &#8804; 100
 ** Dynamic range at ISO 100: &#8805; 13 EV
 ** Color depth at ISO 100: &#8805; 25.0 bits
 ** Pixel count (in megapixels): &#8805; 30 MP
@@ -55,7 +55,7 @@ a|Camera
 a|Small Office/Home Office Inkjet printer 
 
 * A dedicated photo printer (not an all-in-one that also prints photos) no more than 5 years old.
-** The printer's minimum resolution must be at least 2400x1200 DPI.
+** The printer's resolution must be able to print at least 2400x1200 DPI.
 ** OEM pigmented inks must be used.
 ** Use "High" print quality settings.
 * Test user's face shall be printed on paper in full scale.
