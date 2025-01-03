@@ -19,12 +19,6 @@ The evaluator shall refer to publicly available information to change default se
 
 The evaluator shall take at least three videos and select the best one to create each face artefact.
 
-=== Prerequisite
-The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
-
-=== Presentation
-The evaluator shall present a mobile device screen on a tripod for 10 seconds as described in the Face Toolbox Overview.
-
 == Variations
 
 The attack must be performed with each variation.
@@ -41,6 +35,12 @@ The attack must be performed with each variation.
 
 * FA1-T.1, Type 2 Camera
 * FA1-M.2, Type 2 High resolution screen
+
+== Prerequisite
+The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
+
+== Presentation
+The evaluator shall present a mobile device screen on a tripod for 10 seconds as described in the Face Toolbox Overview.
 
 == Penetration Testing and Attack Potential Rating Suggestions
 === Penetration Testing Suggestion
