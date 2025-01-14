@@ -1,6 +1,6 @@
 = Face Toolbox Overview
 :showtitle:
-:revdate: 2025-01-03
+:revdate: 2025-01-14
 
 == Overview
 This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of PAD-L1 face PAIs (see the Toolbox Overview for more information about PAD levels). As there is an almost unlimited number of possible PAIs that can be created at any PAD level, the set of PAIs here are considered a representative set of PAIs, not an exhaustive set.
@@ -56,10 +56,10 @@ The tools and media for the creation of artefacts are defined for all tests in t
 
 . Enrolment
 .. The evaluator shall enable face unlock and enrol the test users following instructions provided by the AGD guidance (i.e., test users should not wear glasses, hat, or heavy make-up during the enrolment if the guidance instructs not to do so).
-.. The evaluator shall enrol test users' neutral (i.e., expressionless) frontal faces under the controlled environment where the background of the scene is uniform, the light in the room is switched on, and the window blinds are down (i.e., direct external lighting is blocked). 
+.. The evaluator shall enrol test users' neutral (i.e., expressionless) frontal faces under a Normal Environment as defined in the link:Face_Toolbox_Inventory.adoc[Face Toolbox Inventory].
 
 . Face image capture
-.. The evaluator shall capture face images immediately following the enrolment of test users under identical environmental conditions to reduce the possibility that the artefacts are rejected because differences in illumination, background scene, or expression.
+.. The evaluator shall capture face images immediately following the enrolment of test users under a Normal Environment as defined in the link:Face_Toolbox_Inventory.adoc[Face Toolbox Inventory] to reduce the possibility that the artefacts are rejected because differences in illumination, background scene, or expression.
 .. The evaluator shall capture test users' face images with Type 1 (i.e., "normal" quality) and Type 2 (i.e., "high" quality) cameras for printed and digital photo attacks. The evaluator shall also record video of the user's face for ten seconds for reply video attacks. 
 
 === 2D Artefacts - Photos and Video

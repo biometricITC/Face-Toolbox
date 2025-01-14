@@ -1,6 +1,6 @@
 = PAD-L1 Face Toolbox Inventory
 :showtitle:
-:revdate: 2025-01-03
+:revdate: 2025-01-14
 
 This document contains the inventory of tools and materials that are used in the context of the L1-Face toolbox.
 
@@ -21,7 +21,7 @@ Some examples:
 In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen. If the evaluator sees any problem (e.g., choppy video playback because of an underpowered CPU), the evaluator shall replace the tools with an alternative that does not exhibit the problem. 
 * The evaluator needs a PC to install and run reconstruction software to generate 3D images.
 +
-In such cases, the evaluator may use any PC that meets the software’s hardware requirements.
+In such cases, the evaluator may use any PC that meets the software's hardware requirements.
 
 == Tools Inventory
 .Tool Requirements
@@ -37,7 +37,7 @@ In such cases, the evaluator may use any PC that meets the software’s hardware
 |Camera    
 a|Mobile device camera
 
-* A mobile device where the https://www.dxomark.com/smartphones/[Smartphone Camera score] is at least 100.
+* A mobile device where the https://www.dxomark.com/smartphones/[Smartphone Camera score] is at least 130.
 
 * The evaluator shall not use the same mobile device on which the TOE is installed.
 a|Camera
@@ -113,5 +113,24 @@ a|High resolution screen
 ** Do not use Twisted Nematic (TN) or strobed backlight displays
 ** Recommended displays are In-Plane-Switching (IPS) or OLED
 * Test user's face shall be displayed or replayed on the screen in full scale. The test user's face should be displayed as large as possible up to a 1:1 scale (for example a 47" TV screen should not display a 47" diagonal of the test user's face)
+
+|===
+
+== Environmental Conditions
+
+.Environmental Requirements
+[cols=".^1,.^1,3",options="header"]
+|===
+
+|ID
+|Category
+|Type 1
+
+|FA1-E.1 
+|Normal Environment - 300 lux
+a|* Lighting conditions that correspond to classical indoor lighting measured around 300 lux
+* Standard indoor background
+* No backlighting
+* No other faces (live or picture) present in the capture
 
 |===

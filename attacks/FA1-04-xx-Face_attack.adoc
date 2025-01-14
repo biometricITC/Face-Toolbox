@@ -25,20 +25,20 @@ The attack must be performed with each variation.
 === Variation 1 (L1-Face FA4-01-01)
 *Normal Quality*
 
-==== Attack Tools/Media
-
+==== Attack Tools/Media/Environment
 * FA1-T.1, Type 1 Mobile device camera
 * FA1-T.2, Type 1 Small Office/Home Office Inkjet printer
 * FA1-M.1, Type 1 Matte paper
+* FA1-E.1, Normal environment - 300 lux
 
 === Variation 2 (L1-Face FA4-01-02)
 *High Quality*
 
-==== Attack Tools/Media
-
+==== Attack Tools/Media/Environment
 * FA1-T.1, Type 2 Camera
 * FA1-T.2, Type 2 Professional print service
 * FA1-M.1, Type 2 Paper recommend by professional print service selected
+* FA1-E.1, Normal environment - 300 lux
 
 == Prerequisite
 The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
