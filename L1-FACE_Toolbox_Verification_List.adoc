@@ -1,0 +1,47 @@
+= Face Toolbox Verification List
+:showtitle:
+:revdate: 2025-01-03
+
+This shows the list of tests and their applicability to different types of biometric sensors.
+
+.Test items
+[cols=".^1,.^2,^.^1",options="header",]
+
+|===
+|No.
+|Attack Description
+|Sensors
+
+|L1-Face FA1-01-01
+|link:attacks/FA1-01-xx-Face_attack.adoc[Printed photo attack, Normal quality]
+|All
+
+|L1-Face FA1-01-02
+|link:attacks/FA1-01-xx-Face_attack.adoc[Printed photo attack, High quality]
+|All
+
+|L1-Face FA1-02-01
+|link:attacks/FA1-02-xx-Face_attack.adoc[Digital photo attack, Normal quality]
+|All
+
+|L1-Face FA1-02-02
+|link:attacks/FA1-02-xx-Face_attack.adoc[Digital photo attack, High quality]
+|All
+
+|L1-Face FA1-03-01
+|link:attacks/FA1-03-xx-Face_attack.adoc[Replay video attack, Normal quality]
+|All
+
+|L1-Face FA1-03-02
+|link:attacks/FA1-03-xx-Face_attack.adoc[Replay video attack, High quality]
+|All
+
+|L1-Face FA1-04-01
+|link:attacks/FA1-04-xx-Face_attack.adoc[Printed face mask, Normal quality]
+|All
+
+|L1-Face FA1-04-02
+|link:attacks/FA1-04-xx-Face_attack.adoc[Printed face mask, High quality]
+|All
+
+|===

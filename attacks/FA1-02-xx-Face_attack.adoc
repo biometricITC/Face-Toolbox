@@ -1,46 +1,48 @@
-= Attack 2D Face 1-1
+= Attack L1-Face FA1-02-xx
 
 == Attack type
-Printed photo attack
+Digital photo attack
 
 === Total Number of Species
 This attack has *2* species to be tested.
 
 == Overview
-The evaluator captures and prints target user's face on paper and presents it to the TOE.
+The evaluator captures and displays a target user's face on a mobile device screen and presents it to the TOE.
 
 == Input
 Target user's face
 
-== Attack Tools/Media
-*Normal Quality*
-
-* T.1, Type 1
-* T.2, Type 1
-* M.1, Type 1
-
 == Recipe
-The evaluator shall capture a face image and print it on paper. 
+The evaluator shall capture a face image and display it on a screen. 
 
-The evaluator shall refer to publicly available information to change default settings of the camera (e.g., picture size) and printer (e.g., output resolution) to create clearer face artefacts.
+The evaluator shall refer to publicly available information to change default settings of the camera (e.g., picture size) to create clearer face artefacts.
 
 The evaluator shall take at least three photos and select the best one to create each face artefact.
 
 == Variations
+The attack must be performed with each variation.
 
-=== Variation 1 (2D Face 1-2)
-==== Attack Tools/Media
+=== Variation 1 (L1-Face FA2-01-01)
+*Normal Quality*
+
+==== Attack Tools/Media/Environment
+* FA1-T.1, Type 1 Mobile device camera
+* FA1-M.2, Type 1 Mobile device screen
+* FA1-E.1, Normal environment - 300 lux
+
+=== Variation 2 (L1-Face FA2-01-02)
 *High Quality*
 
-* T.1, Type 2
-* T.2, Type 2
-* M.1, Type 2
+==== Attack Tools/Media/Environment
+* FA1-T.1, Type 2 Camera
+* FA1-M.2, Type 2 High resolution screen
+* FA1-E.1, Normal environment - 300 lux
 
 == Prerequisite
 The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
 
 == Presentation
-The evaluator shall present a printed photo by hand as described in the Face Toolbox Overview.
+The evaluator shall present the screen by hand as described in the Face Toolbox Overview.
 
 == Penetration Testing and Attack Potential Rating Suggestions
 === Penetration Testing Suggestion
@@ -52,13 +54,13 @@ The evaluator may, for example, change color effects of the camera to change the
 
 * Presentation method
 + 
-As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. In addition, the evaluator may deliberately warp a printed photo, trying to simulate facial motion (Warped photo attack). The evaluator may also remove the eye regions of a printed photo, align their own eyes behind the photo, and blink through the holes (Cut photo attack).  
+As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. 
 
 === Attack Potential Rating Suggestion
-The attack potentials that are required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate attack potential. 
+The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
 
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential 2D Face 1-1
+.Attack Potential L1-Face FA2-01-01
 |===
 |Factor 
 |Identification Value
@@ -121,7 +123,7 @@ a|
 
 
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential 2D Face 1-2
+.Attack Potential L1-Face FA2-01-02
 |===
 |Factor 
 |Identification Value
@@ -181,6 +183,7 @@ a|
 6+^.^|Total Attack Potential = 5 < Basic Attack Potential
 
 |===
+
 
 == Pass Criteria
 There is no additional criteria other than what is defined in BIOSD and PAD Toolbox Overview.
