@@ -131,6 +131,7 @@ a|High resolution screen
 a|* Lighting conditions that correspond to classical indoor lighting measured around 300 lux
 * Standard indoor background
 * No backlighting
+* No harsh or deep shadows should be visible on or across the face in the capture
 * No other faces (live or picture) present in the capture
 
 |===
