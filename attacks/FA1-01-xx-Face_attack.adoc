@@ -28,8 +28,8 @@ The attack must be performed with each variation.
 ==== Attack Tools/Media/Environment
 
 * FA1-T.1, Type 1 Mobile device camera
-* FA1-T.2, Type 1 Small Office/Home Office Inkjet printer
-* FA1-M.1, Type 1 Matte paper
+* FA1-T.2, Inkjet Printer or Service
+* FA1-M.1, Matte or Service-specified
 * FA1-E.1, Normal environment - 300 lux
 
 === Variation 2 (L1-Face FA1-01-02)
@@ -38,8 +38,8 @@ The attack must be performed with each variation.
 ==== Attack Tools/Media/Environment
 
 * FA1-T.1, Type 2 Camera
-* FA1-T.2, Type 2 Professional print service
-* FA1-M.1, Type 2 Paper recommend by professional print service selected
+* FA1-T.2, Inkjet Printer or Service
+* FA1-M.1, Matte or Service-specified
 * FA1-E.1, Normal environment - 300 lux
 
 == Prerequisite

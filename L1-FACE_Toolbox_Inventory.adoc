@@ -53,19 +53,21 @@ a|Camera
 ** Sharpness score: &#8805; 20
 
 |FA1-T.2 
-|Printer             
-a|Small Office/Home Office Inkjet printer 
+|Photo Inkjet Printer or Service
+2+a|Either a photo-capable inkjet printer or a professional service may be used for printing the photos. Printer quality should meet quality expected from a service.
+
+For an Inkjet printer:
 
 * A dedicated photo printer (not an all-in-one that also prints photos) no more than 5 years old.
 ** The printer's resolution must be able to print at least 2400x1200 DPI.
 ** OEM pigmented inks must be used.
 ** Use "High" print quality settings.
-* Test user's face shall be printed on paper in full scale.
-a|Professional print service
+
+For all prints:
 
 * Test user's face shall be printed on paper in full scale.
 * The evaluator shall refer to publicly available information to select the best one (e.g., quality comparison report for professional print services). 
-* The evaluator shall follow recommendations from professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
+* The evaluator shall follow recommendations from the printer guidance or professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
 
 |===
 
@@ -92,14 +94,9 @@ For type 2 cameras with a lens, the following recommendations should be used:
 
 |FA1-M.1 
 |Print paper            
-a|Matte paper 
+2+a|For inkjet printers Matte paper shall be used.
 
-* Paper shall be wide enough to include a test user's face in full scale
-
-a|Paper recommend by professional print service selected
-
-* Paper shall be wide enough to include a test user's face in full scale
-* The evaluator shall select the best paper type to print the highest quality face images
+Paper size shall be wide enough to include a test user's face in full scale
 
 |FA1-M.2 
 |Screen              
