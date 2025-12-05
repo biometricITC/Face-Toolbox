@@ -22,7 +22,7 @@ The evaluator shall take at least three photos and select the best one to create
 == Variations
 The attack must be performed with each variation.
 
-=== Variation 1 (L1-Face FA4-01-01)
+=== Variation 1 (L1-Face FA1-04-01)
 *Normal Quality*
 
 ==== Attack Tools/Media/Environment
@@ -31,7 +31,7 @@ The attack must be performed with each variation.
 * FA1-M.1, Type 1 Matte paper
 * FA1-E.1, Normal environment - 300 lux
 
-=== Variation 2 (L1-Face FA4-01-02)
+=== Variation 2 (L1-Face FA1-04-02)
 *High Quality*
 
 ==== Attack Tools/Media/Environment
@@ -62,7 +62,7 @@ As described in BIOSD, the evaluator may change the distance between the artefac
 The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
 
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential L1-Face FA4-01-01
+.Attack Potential L1-Face FA1-04-01
 |===
 |Factor 
 |Identification Value
@@ -125,7 +125,7 @@ a|
 
 
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential L1-Face FA4-01-02
+.Attack Potential L1-Face FA1-04-02
 |===
 |Factor 
 |Identification Value

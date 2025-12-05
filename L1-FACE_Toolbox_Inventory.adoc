@@ -1,6 +1,6 @@
 = PAD-L1 Face Toolbox Inventory
 :showtitle:
-:revdate: 2025-01-21
+:revdate: 2025-12-05
 
 This document contains the inventory of tools and materials that are used in the context of the L1-Face toolbox.
 
@@ -132,6 +132,22 @@ a|* Lighting conditions that correspond to classical indoor lighting measured ar
 * Standard indoor background
 * No backlighting
 * No harsh or deep shadows should be visible on or across the face in the capture
+* No other faces (live or picture) present in the capture
+
+|FA1-E.2
+|Low light Environment - 150 lux
+a|* Lighting conditions that correspond to classical indoor lighting measured around 150 lux
+* Standard indoor background
+* No backlighting
+* Harsh or deep shadows should be visible on or across the face in the capture
+* No other faces (live or picture) present in the capture
+
+|FA1-E.3
+|Bright Environment - >500 lux
+a|* Lighting conditions that correspond to classical indoor lighting measured as greater than 500 lux
+* Standard indoor background
+* No backlighting
+* Harsh or deep shadows should be visible on or across the face in the capture
 * No other faces (live or picture) present in the capture
 
 |===
