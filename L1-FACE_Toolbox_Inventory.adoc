@@ -47,7 +47,7 @@ a|Camera
 ** Dynamic range at ISO 100: &#8805; 13 EV
 ** Color depth at ISO 100: &#8805; 25.0 bits
 ** Pixel count (in megapixels): &#8805; 30 MP
-** SNR at ISO 100: &#8805; 42 dB
+** SNR 18% (SNR at 18% greyscale) at ISO 100: &#8805; 42 dB
 * A camera lens with the following https://www.dxomark.com/camera-lenses/[rankings]:
 ** Overall score: &#8805; 30
 ** Sharpness score: &#8805; 20
