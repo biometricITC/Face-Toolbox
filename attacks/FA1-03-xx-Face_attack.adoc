@@ -28,7 +28,7 @@ The attack must be performed with each variation.
 
 ==== Attack Tools/Media/Environment
 * FA1-T.1, Type 1 Mobile device camera
-* FA1-M.2, Type 1 Mobile device screen
+* FA1-M.2, Type 2 High resolution screen
 * FA1-E.1, Normal environment - 300 lux
 
 === Variation 2 (L1-Face FA1-03-02)

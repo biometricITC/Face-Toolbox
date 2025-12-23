@@ -100,16 +100,22 @@ Paper size shall be wide enough to include a test user's face in full scale
 
 |FA1-M.2 
 |Screen              
-a|Mobile device screen
+2+a|High resolution screen
 
-* The evaluator shall use the same mobile device used for capturing test user's face
-* Screen shall include the test user's full face and this face image shall be taken where the user holds the mobile device like a normal face verification
-a|High resolution screen
-
-* The evaluator shall use a UHD (4K) or higher resolution display (TV or computer monitor)
+* The evaluator shall use a UHD (4K) or higher resolution display (TV or computer monitor between 20"-30" diagonal size)
 ** Do not use Twisted Nematic (TN) or strobed backlight displays
 ** Recommended displays are In-Plane-Switching (IPS) or OLED
-* Test user's face shall be displayed or replayed on the screen in full scale. The test user's face should be displayed as large as possible up to a 1:1 scale (for example a 47" TV screen should not display a 47" diagonal of the test user's face)
+* Test user's face shall be displayed or replayed on the screen in full scale. The test user's face should be displayed as large as possible up to a 1:1 scale
+
+|FA1-M.3
+|Cylinder
+2+a|Head-sized cylinder
+
+A cylinder roughly 6" in diameter at least 1' in length.
+
+Ideally the cylinder would be a material that can be used to tape photos to repeatedly without deforming or breaking down. This is used for consistency. Alternatives may be accceptable if they can be used consistently.
+
+* The size of the cylinder can vary, but should be close to the size of the test user's head diamater
 
 |===
 
