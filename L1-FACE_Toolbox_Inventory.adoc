@@ -69,6 +69,12 @@ For all prints:
 * The evaluator shall refer to publicly available information to select the best one (e.g., quality comparison report for professional print services). 
 * The evaluator shall follow recommendations from the printer guidance or professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
 
+|FA1-T.3
+|Standard Artefact
+2+|A standard artefact face mask that is not of a specific person (not a replication of a specific person). 
+
+The standard artefact is useful for expanding the range of faces that can be used for testing, not as attacks but for enrolment as the test user when possible.
+
 |===
 
 === Camera Lens Usage Recommendations

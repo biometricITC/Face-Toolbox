@@ -1,6 +1,6 @@
 = Face Toolbox Overview
 :showtitle:
-:revdate: 2025-01-14
+:revdate: 2025-12-23
 
 == Overview
 This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of PAD-L1 face PAIs (see the Toolbox Overview for more information about PAD levels). As there is an almost unlimited number of possible PAIs that can be created at any PAD level, the set of PAIs here are considered a representative set of PAIs, not an exhaustive set.
@@ -112,7 +112,7 @@ This toolbox defines two level of tools--Type 1 and Type 2--to cover variety of 
 
 Type 1 tools are inexpensive and can be used by novices to capture and upload images to social media. An attacker may also create face artefacts with such uploaded images without difficulty. Detailed attack methods using uploaded images have been published on the Internet, so the evaluator shall try this type of artefact first. 
 
-Type 2 tools have better performance (e.g., higher resolution) than Type 1 tools.  Such tools should be the latest available (for example, a device that has been recently released, or is considered an industry leading device of that type). Those tools may be expensive, but may be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks.
+Type 2 tools have better performance (e.g., higher resolution) than Type 1 tools. Such tools should be the latest available (for example, a device that has been recently released, or is considered an industry leading device of that type). Those tools may be expensive, but may be rented at an affordable cost. The reason why such tools should be used is that the PAD algorithm may show good rejection performance for artefacts used to train the algorithm, but reduced rejection performance for artefacts the algorithm has never seen before. Attackers may additionally create high-quality artifacts to maximize the chance of successful attacks.
 
 The evaluator shall create such artefacts that with the highest likelihood of bypassing the PAD using the latest tools.
 
@@ -121,8 +121,16 @@ The evaluator shall create artefacts defined in all test items listed in the lin
 
 PAD Toolbox Overview defines required number of attempts for the independent testing and maximum timeframe for both independent and penetration testing.
 
+=== Standard Artefacts
+One of the inventory tools is a standard artefact mask. The lab may not have a wide range of faces to use for testing. Standard artefacts are a way to expand the number of possible test users without needing to bring in additional people. 
+
+Standard artefacts can be used at the discretion of the lab. Testing cannot be completed solely with the use of standard artefacts though, live users must be included in the data set. The use of standard artefacts shall be documented in the test report.
+
 == Pass/Fail Criteria
 IAPAR shall be less than the specified value in FIA_MBV_EXT.3.1 in any case. If additional Pass/Fail Criteria is defined in the test items, then the evaluator shall also follow them.
+
+=== Pass/Fail Criteria with Standard Artefacts
+Standard artefacts used in calculating the IAPAR cannot be the only artefact to fail the test causing the failure. If the only failures are from standard artefacts and the results cannot be replicated in live users, then the test is considered a pass.
 
 == Reference Information 
 The Face Toolbox was created based on research papers listed in link:Face_Toolbox_References.adoc[Face Toolbox References]. The evaluator should read them before conducting the PAD testing because they include more detailed information about PAD test methods.
