@@ -20,6 +20,14 @@ This shows the list of tests and their applicability to different types of biome
 |link:attacks/FA1-01-xx-Face_attack.adoc[Printed photo attack, High quality]
 |All
 
+|L1-Face FA1-01-03
+|link:attacks/FA1-01-xx-Face_attack.adoc[Printed photo attack, Normal quality curved]
+|All
+
+|L1-Face FA1-01-04
+|link:attacks/FA1-01-xx-Face_attack.adoc[Printed photo attack, High quality curved]
+|All
+
 |L1-Face FA1-02-01
 |link:attacks/FA1-02-xx-Face_attack.adoc[Digital photo attack, Normal quality]
 |All
