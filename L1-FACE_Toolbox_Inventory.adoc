@@ -66,6 +66,8 @@ For an Inkjet printer:
 For all prints:
 
 * Test user's face shall be printed on paper in full scale.
+* The evaluaor shall maintain the original aspect ratio during printing to avoid distortion of the face image.
+* The evaluator shall crop the face from the printed photo, as some devices might detect the non-matching background.
 * The evaluator shall refer to publicly available information to select the best one (e.g., quality comparison report for professional print services). 
 * The evaluator shall follow recommendations from the printer guidance or professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
 
