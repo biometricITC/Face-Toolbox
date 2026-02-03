@@ -26,6 +26,6 @@ The general overview for PAD testing can be found in the documents located in th
 |The list of all tests (including variants) and when they should be tested (based on the information known about the sensor being tested).
 
 |link:attacks[attacks/]
-|This folder contains the scripts for the attacks (as listed in link:FACE_Toolbox_Verification_List.adoc[FACE_Toolbox_Verification_List.adoc]).
+|This folder contains the scripts for the attacks (as listed in link:L1-FACE_Toolbox_Verification_List.adoc[L1-FACE_Toolbox_Verification_List.adoc]).
 
 |===
