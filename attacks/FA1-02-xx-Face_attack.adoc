@@ -60,7 +60,7 @@ As described in BIOSD, the evaluator may change the distance between the artefac
 The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
 
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential L1-Face FA1-02-01
+.Attack Potential L1-Face FA1-02
 |===
 |Factor 
 |Identification Value
@@ -70,9 +70,9 @@ The attack potential that is required to build this artefact is summarized in th
 |Total
 
 |*Elapsed Time*
-|<= one week
+|⇐ one day
 |1
-|<= one day
+|<= one hour
 |0
 |1
 
@@ -82,12 +82,29 @@ The attack potential that is required to build this artefact is summarized in th
 |Layman
 |0
 |0
- 
+
 |*Knowledge of TOE*    
 |Public
 |0 
-|N/A
-|
+|Public
+|0 
+|0
+
+|*Equipment*
+|Standard
+|1 
+|Standard
+|2
+|3
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|Not needed
+|0
+|Without notice (Easy)
+|0
 |0
 
 a|
@@ -100,87 +117,14 @@ a|
 |4
 |4
 
-a|
-*Window of Opportunity*
-
-*(Access to Biometric Characteristics)* 
-|N/A
-|
-|Without notice
-|0
-|0
-
-|*Equipment*
-|Standard
+|*Degree of Scrutiny*
+|None
 |0 
-|Standard
+|None
 |0
 |0
 
-6+^.^|Total Attack Potential = 5 < Basic Attack Potential
-
-|===
-
-
-[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential L1-Face FA1-02-02
-|===
-|Factor 
-|Identification Value
-|Score
-|Exploitation Value
-|Score
-|Total
-
-|*Elapsed Time*
-|<= one week
-|1
-|<= one day
-|0
-|1
-
-|*Expertise*
-|Layman
-|0
-|Layman
-|0
-|0
- 
-|*Knowledge of TOE*    
-|Public
-|0 
-|N/A
-|
-|0
-
-a|
-*Window of Opportunity*
-
-*(Access to TOE)* 
-|Easy
-|0
-|Moderate
-|4
-|4
-
-a|
-*Window of Opportunity*
-
-*(Access to Biometric Characteristics)* 
-|N/A
-|
-|Without notice
-|0
-|0
-
-|*Equipment*
-|Standard
-|0 
-|Standard
-|0
-|0
-
-6+^.^|Total Attack Potential = 5 < Basic Attack Potential
+6+^.^|Total Attack Potential = 8 < Basic Attack Potential
 
 |===
 
