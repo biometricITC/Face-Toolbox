@@ -96,7 +96,6 @@ Attack Potential values are shown in <<calculatedtable>>. Attack Potential value
 .Calculated Attack Potential Face attack 01-xx
 [[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential L1-Face FA1-01
 |===
 |Factor 
 |Identification Value
