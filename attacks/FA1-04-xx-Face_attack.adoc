@@ -5,20 +5,21 @@
 Printed face mask attack
 
 === Total Number of Species
-This attack has *4* species to be tested.
+This attack has *2* species to be tested.
 
 == Overview
 The evaluator captures and prints a target user's face on paper, bends the paper to wear it as a face mask, and presents it to the TOE.
 
 == Input
-Target user's face
+This attack assumes that target user’s facial images are available from the internet.
 
-== Recipe
-The evaluator shall capture a face image and print it on paper. 
+== Common Attack Tools, Materials and Environment
+* FA1-T.2, Inkjet Printer or Service
+* FA1-M.1, Matte or Service-specified
+* FA1-E.1, Normal environment - 300 lux
 
-The evaluator shall refer to publicly available information to change default setting of the camera (e.g., picture size) and printer (e.g., output resolution) to create clearer face artefacts.
-
-The evaluator shall take at least three photos and select the best one to create each face artefact.
+== Common Recipe
+The evaluator shall capture a face image and print it on paper. The evaluator shall refer to publicly available information to change default setting of the camera (e.g., picture size) and printer (e.g., output resolution) to create clearer face artefacts. The evaluator shall take at least three photos and select the best one to create each face artefact and cut the face out of the photo to construct the PAI.
 
 == Variations
 The attack must be performed with each variation.
@@ -26,38 +27,14 @@ The attack must be performed with each variation.
 === Variation 1 (L1-Face FA1-04-01)
 *Normal Quality*
 
-==== Attack Tools/Media/Environment
+==== Attack Tool
 * FA1-T.1, Type 1 Mobile device camera
-* FA1-T.2, Inkjet Printer or Service
-* FA1-M.1, Matte or Service-specified
-* FA1-E.1, Normal environment - 300 lux
 
 === Variation 2 (L1-Face FA1-04-02)
 *High Quality*
 
 ==== Attack Tools/Media/Environment
 * FA1-T.1, Type 2 Camera
-* FA1-T.2, Inkjet Printer or Service
-* FA1-M.1, Matte or Service-specified
-* FA1-E.1, Normal environment - 300 lux
-
-=== Variation 3 (L1-Face FA1-04-03)
-*High Quality - Low Light*
-
-==== Attack Tools/Media/Environment
-* FA1-T.1, Type 2 Camera
-* FA1-T.2, Inkjet Printer or Service
-* FA1-M.1, Matte or Service-specified
-* FA1-E.2, Low light Environment - 150 lux
-
-=== Variation 4 (L1-Face FA1-04-04)
-*High Quality - Bright Light*
-
-==== Attack Tools/Media/Environment
-* FA1-T.1, Type 2 Camera
-* FA1-T.2, Inkjet Printer or Service
-* FA1-M.1, Matte or Service-specified
-* FA1-E.3, Bright Environment - >500 lux
 
 == Prerequisite
 The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
