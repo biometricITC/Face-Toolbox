@@ -58,8 +58,14 @@ The evaluator may, for example, change color effects of the camera to change the
 As described in BIOSD, the evaluator may change the distance between the artefact and the TOE. 
 
 === Attack Potential Rating Suggestion
-The attack potential that is required to build this artefact is summarized in the following table. See BIOSD Section 9 for more information about how to calculate the attack potential. 
+The attack potentials that are required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate attack potential.
 
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the replay video  described in this attack. Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., downloading the target facial image from the internet and attack the TOE using the printed photo). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*All Variations*
+
+.Calculated Attack Potential Face attack 03-xx
+[[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 .Attack Potential L1-Face FA1-03
 |===
