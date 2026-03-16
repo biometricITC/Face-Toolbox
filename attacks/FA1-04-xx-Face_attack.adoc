@@ -1,4 +1,5 @@
 = Attack L1-Face FA1-04-xx
+:xrefstyle: short
 
 == Attack type
 Printed face mask attack
