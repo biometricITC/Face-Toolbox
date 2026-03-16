@@ -1,4 +1,5 @@
 = Attack L1-Face FA1-02-xx
+:xrefstyle: short
 
 == Attack type
 Digital photo attack
