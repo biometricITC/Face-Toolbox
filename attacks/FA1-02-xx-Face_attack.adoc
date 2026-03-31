@@ -11,7 +11,7 @@ This attack has *2* species to be tested.
 The evaluator captures and displays a target user's face on a screen and presents it to the TOE.
 
 == Input
-This attack assumes that target user’s facial images are available from the internet.
+This attack assumes that target user's facial images are available from the internet.
 
 == Common Attack Environment
 * FA1-E.1, Normal environment - 300 lux
@@ -73,7 +73,7 @@ Attack Potential values are shown in <<calculatedtable>>. Attack Potential value
 |Total
 
 |*Elapsed Time*
-|⇐ one day
+|<= one day
 |1
 |<= one hour
 |0

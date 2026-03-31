@@ -1,6 +1,6 @@
 = Face Toolbox Verification List
 :showtitle:
-:revdate: 2025-12-08
+:revdate: 2026-03-31
 
 This shows the list of tests and their applicability to different types of biometric sensors.
 

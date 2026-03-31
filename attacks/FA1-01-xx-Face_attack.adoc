@@ -11,7 +11,7 @@ This attack has *4* species to be tested.
 The evaluator captures and prints target user's face on paper and presents it to the TOE. The presentation will be made using the photo flat and curved.
 
 == Input
-This attack assumes that target user’s facial images are available from the internet.
+This attack assumes that target user's facial images are available from the internet.
 
 == Common Attack Tools, Materials and Environment
 * FA1-T.2, Inkjet Printer or Service
@@ -91,7 +91,7 @@ Attack Potential values are shown in <<calculatedtable>>. Attack Potential value
 |Total
 
 |*Elapsed Time*
-|⇐ one day
+|<= one day
 |1
 |<= one hour
 |0

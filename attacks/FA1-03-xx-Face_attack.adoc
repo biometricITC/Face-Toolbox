@@ -11,7 +11,7 @@ This attack has *2* species to be tested.
 The evaluator records and replays a target user's face on a screen and presents it to the TOE.
 
 == Input
-This attack assumes that a video of target user’s facial images are available from the internet.
+This attack assumes that a video of target user's facial images are available from the internet.
 
 == Common Attack Tools, Materials and Environment
 * FA1-M.2, Type 2 High resolution screen
@@ -72,7 +72,7 @@ Attack Potential values are shown in <<calculatedtable>>. Attack Potential value
 |Total
 
 |*Elapsed Time*
-|⇐ one day
+|<= one day
 |1
 |<= one hour
 |0
