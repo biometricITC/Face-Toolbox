@@ -79,7 +79,7 @@ Attack Potential values are shown in <<calculatedtable>>. Attack Potential value
 
 *All Variations*     
 
-.Calculated Attack Potential Face attack 01-xx
+.Calculated Attack Potential Face attack FA1-01-xx
 [[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 |===
