@@ -1,6 +1,6 @@
 = Face Toolbox Overview
 :showtitle:
-:revdate: 2025-12-23
+:revdate: 2026-03-31
 
 == Overview
 This toolbox contains a description of the process, tools, and materials needed to construct and use a selection of PAD-L1 face PAIs (see the Toolbox Overview for more information about PAD levels). As there is an almost unlimited number of possible PAIs that can be created at any PAD level, the set of PAIs here are considered a representative set of PAIs, not an exhaustive set.
@@ -8,6 +8,8 @@ This toolbox contains a description of the process, tools, and materials needed 
 There are two categories of face artefacts that can be used for presentation attacks. The first is two-dimensional (2D), such as a printed photo of a target user. The second is three-dimensional (3D), for example, a face mask that mimics the geometry of a user's face. This toolbox describes 2D face artefacts that the evaluator shall create for PAD testing.
 
 There are also two types of face biometric verification methods, 2D or 3D image-based methods. The 2D image-based method captures a two-dimensional face image with a sensor using visible light to recognize a person. The 3D image-based method creates three-dimensional model of the human face using a 3D scanner such as a depth camera.
+
+It is assumed that the 2D image-based method lacking any PAD functionality will fail this Level 1 Face PAD test.
 
 == Face Presentation Attacks
 === 2D Attacks

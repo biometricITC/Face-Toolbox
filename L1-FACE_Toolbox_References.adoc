@@ -32,7 +32,7 @@ https://doi.org/10.1109/BTAS.2013.6712688
 
 https://doi.org/10.1109/CVPRW.2016.193
 
-[9] [Bhattacharjee & Marcel, 2017] What you can’t see can help you – extended-range imaging for 3D-mask presentation attack detection
+[9] [Bhattacharjee & Marcel, 2017] What you can't see can help you – extended-range imaging for 3D-mask presentation attack detection
 
 https://doi.org/10.23919/BIOSIG.2017.8053524
 
