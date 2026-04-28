@@ -29,7 +29,7 @@ The attack must be performed with each variation.
 *Normal Quality*
 
 ==== Attack Tools
-* FA1-T.1, Type 1 Mobile device camera
+* FA1-T.1, Type 1 Camera
 
 === Variation 2 (L1-Face FA1-01-02)
 *High Quality*
@@ -43,8 +43,8 @@ The attack must be performed with each variation.
 The artefact will be wrapped around the cylinder before presentation to the TOE.
 
 ==== Attack Tools/Media
-* FA1-T.1, Type 1 Mobile device camera
-* FA1-M.3, Head-sized cylinder
+* FA1-T.1, Type 1 Camera
+* FA1-M.3, Cylinder
 
 === Variation 4 (L1-Face FA1-01-04)
 *High Quality Curved*
@@ -53,7 +53,7 @@ The artefact will be wrapped around the cylinder before presentation to the TOE.
 
 ==== Attack Tools/Media
 * FA1-T.1, Type 2 Camera
-* FA1-M.3, Head-sized cylinder
+* FA1-M.3, Cylinder
 
 == Prerequisite
 The evaluator shall enrol test users first as described in the Face Toolbox Overview. If the ST covers multiple configurations for face unlock, the same test shall be performed for all configurations.
