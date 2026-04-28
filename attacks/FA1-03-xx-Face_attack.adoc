@@ -14,7 +14,8 @@ The evaluator records and replays a target user's face on a screen and presents 
 This attack assumes that a video of target user's facial images are available from the internet.
 
 == Common Attack Tools, Materials and Environment
-* FA1-M.2, Type 2 High resolution screen
+* FA1-M.2, Screen
+* FA1-T.4, Lux meter
 *	FA1-E.1, Normal environment - 300 lux
 
 == Common Recipe
@@ -27,7 +28,7 @@ The attack must be performed with each variation.
 *Normal Quality*
 
 ==== Attack Tool
-* FA1-T.1, Type 1 Mobile device camera
+* FA1-T.1, Type 1 Camera
 
 === Variation 2 (L1-Face FA1-03-02)
 *High Quality*
