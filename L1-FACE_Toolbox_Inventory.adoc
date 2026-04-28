@@ -17,11 +17,8 @@ Some examples:
 
 * The evaluator may connect a camera to a TV directly to replay a face image on a 4K screen
 * A camera video file could be imported to a PC from the camera and played directly from a 4K PC screen.
-+
+
 In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen. If the evaluator sees any problem (e.g., choppy video playback because of an underpowered CPU), the evaluator shall replace the tools with an alternative that does not exhibit the problem. 
-* The evaluator needs a PC to install and run reconstruction software to generate 3D images.
-+
-In such cases, the evaluator may use any PC that meets the software's hardware requirements.
 
 == Tools Inventory
 .Tool Requirements
