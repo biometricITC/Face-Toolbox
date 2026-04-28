@@ -14,8 +14,9 @@ The evaluator captures and prints a target user's face on paper, bends the paper
 This attack assumes that target user's facial images are available from the internet.
 
 == Common Attack Tools, Materials and Environment
-* FA1-T.2, Inkjet Printer or Service
-* FA1-M.1, Matte or Service-specified
+* FA1-T.2, Photo Inkjet Printer or Service
+* FA1-T.4, Lux meter
+* FA1-M.1, Print paper
 * FA1-E.1, Normal environment - 300 lux
 
 == Common Recipe
@@ -28,7 +29,7 @@ The attack must be performed with each variation.
 *Normal Quality*
 
 ==== Attack Tool
-* FA1-T.1, Type 1 Mobile device camera
+* FA1-T.1, Type 1 Camera
 
 === Variation 2 (L1-Face FA1-04-02)
 *High Quality*
