@@ -1,6 +1,6 @@
 = PAD-L1 Face Toolbox Inventory
 :showtitle:
-:revdate: 2025-01-21
+:revdate: 2026-03-31
 
 This document contains the inventory of tools and materials that are used in the context of the L1-Face toolbox.
 
@@ -17,11 +17,8 @@ Some examples:
 
 * The evaluator may connect a camera to a TV directly to replay a face image on a 4K screen
 * A camera video file could be imported to a PC from the camera and played directly from a 4K PC screen.
-+
+
 In such cases, the evaluator may use any PC and viewer software, however, the evaluator shall visually check the final image on the screen. If the evaluator sees any problem (e.g., choppy video playback because of an underpowered CPU), the evaluator shall replace the tools with an alternative that does not exhibit the problem. 
-* The evaluator needs a PC to install and run reconstruction software to generate 3D images.
-+
-In such cases, the evaluator may use any PC that meets the software's hardware requirements.
 
 == Tools Inventory
 .Tool Requirements
@@ -47,25 +44,43 @@ a|Camera
 ** Dynamic range at ISO 100: &#8805; 13 EV
 ** Color depth at ISO 100: &#8805; 25.0 bits
 ** Pixel count (in megapixels): &#8805; 30 MP
-** SNR at ISO 100: &#8805; 42 dB
+** SNR 18% (SNR at 18% greyscale) at ISO 100: &#8805; 42 dB
 * A camera lens with the following https://www.dxomark.com/camera-lenses/[rankings]:
 ** Overall score: &#8805; 30
 ** Sharpness score: &#8805; 20
 
 |FA1-T.2 
-|Printer             
-a|Small Office/Home Office Inkjet printer 
+|Photo Inkjet Printer or Service
+2+a|Either a photo-capable inkjet printer or a professional service may be used for printing the photos. Printer quality should meet quality expected from a service.
+
+For an Inkjet printer:
 
 * A dedicated photo printer (not an all-in-one that also prints photos) no more than 5 years old.
 ** The printer's resolution must be able to print at least 2400x1200 DPI.
 ** OEM pigmented inks must be used.
 ** Use "High" print quality settings.
-* Test user's face shall be printed on paper in full scale.
-a|Professional print service
+
+For all prints:
 
 * Test user's face shall be printed on paper in full scale.
+* The evaluaor shall maintain the original aspect ratio during printing to avoid distortion of the face image.
+* The evaluator shall crop the face from the printed photo, as some devices might detect the non-matching background.
 * The evaluator shall refer to publicly available information to select the best one (e.g., quality comparison report for professional print services). 
-* The evaluator shall follow recommendations from professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
+* The evaluator shall follow recommendations from the printer guidance or professional print service (e.g., recommended image file size) to get the highest quality of photo print. 
+* Accuracy: within ±5%     
+
+|FA1-T.3
+|Standard Artefact
+2+|A standard artefact face mask that is not of a specific person (not a replication of a specific person). 
+
+The standard artefact is useful for expanding the range of faces that can be used for testing, not as attacks but for enrolment as the test user when possible.
+  
+|FA1-T.4 
+|Lux meter
+2+a|Lux meter that meets the following requirements: 
+
+* Minimum Range: 0 to 2,000 lux
+* Accuracy: within ±5%
 
 |===
 
@@ -82,37 +97,37 @@ For type 2 cameras with a lens, the following recommendations should be used:
 == Materials Inventory
 
 .Materials Requirements
-[cols=".^1,.^1,3,3",options="header"]
+[cols=".^1,.^1,3",options="header"]
 |===
 
 |ID
 |Category
-|Type 1
-|Type 2
+|Description
 
 |FA1-M.1 
 |Print paper            
-a|Matte paper 
+|For inkjet printers Matte paper shall be used.
 
-* Paper shall be wide enough to include a test user's face in full scale
-
-a|Paper recommend by professional print service selected
-
-* Paper shall be wide enough to include a test user's face in full scale
-* The evaluator shall select the best paper type to print the highest quality face images
+Paper size shall be wide enough to include a test user's face in full scale
 
 |FA1-M.2 
 |Screen              
-a|Mobile device screen
-
-* The evaluator shall use the same mobile device used for capturing test user's face
-* Screen shall include the test user's full face and this face image shall be taken where the user holds the mobile device like a normal face verification
 a|High resolution screen
 
-* The evaluator shall use a UHD (4K) or higher resolution display (TV or computer monitor)
+* The evaluator shall use a UHD (4K) or higher resolution display (TV or computer monitor between 20"-30" diagonal size)
 ** Do not use Twisted Nematic (TN) or strobed backlight displays
 ** Recommended displays are In-Plane-Switching (IPS) or OLED
-* Test user's face shall be displayed or replayed on the screen in full scale. The test user's face should be displayed as large as possible up to a 1:1 scale (for example a 47" TV screen should not display a 47" diagonal of the test user's face)
+* Test user's face shall be displayed or replayed on the screen in full scale. The test user's face should be displayed as large as possible up to a 1:1 scale
+
+|FA1-M.3
+|Cylinder
+a|Head-sized cylinder
+
+A cylinder roughly 6" in diameter at least 1' in length.
+
+Ideally the cylinder would be a material that can be used to tape photos to repeatedly without deforming or breaking down. This is used for consistency. Alternatives may be accceptable if they can be used consistently.
+
+* The size of the cylinder can vary, but should be close to the size of the test user's head diamater
 
 |===
 
@@ -124,7 +139,7 @@ a|High resolution screen
 
 |ID
 |Category
-|Type 1
+|Description
 
 |FA1-E.1 
 |Normal Environment - 300 lux
